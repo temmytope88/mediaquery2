@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
 }
 
-rre{color: hsl(193, 100%, 96%), hsl(192, 100%, 9%), hsl(208, 11%, 55%)}
+h3{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
 
 body{
   display: grid;
@@ -13,6 +20,7 @@ body{
   height: auto;
   font-size: 18px;
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .top, main, footer{
@@ -39,8 +47,7 @@ body{
 }
 .trybtn{
   display: flex;
-  justify-content: flex-end;
- 
+  justify-content: flex-end;  
 }
 
 .trybtn>button{
@@ -50,7 +57,7 @@ body{
   margin-right: 40px;
   margin-top: 7px;
   border: 0;
-  
+  background-color: white;
 }
 
 .logo>img{
@@ -69,6 +76,11 @@ header{
 .box1{
   width:100%;
   margin: auto;
+}
+
+.box1>h1{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
 }
 
 .box1>p, .box1>button{
